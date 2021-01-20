@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78438" started-at="2021-01-20T01:39:27Z" finished-at="2021-01-20T01:40:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="78438" started-at="2021-01-20T01:39:27Z" finished-at="2021-01-20T01:40:46Z">
+      <class name="com.harman.scripts.View_Cart">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.harman.scripts.View_Cart@3ffc5af1]" name="generateReport" is-config="true" duration-ms="968" started-at="2021-01-20T07:09:27Z" finished-at="2021-01-20T07:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.harman.scripts.View_Cart@3ffc5af1]" name="beforeClass" is-config="true" duration-ms="18654" started-at="2021-01-20T07:09:28Z" finished-at="2021-01-20T07:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.harman.scripts.View_Cart@3ffc5af1]" name="methodName" is-config="true" duration-ms="89" started-at="2021-01-20T07:09:47Z" finished-at="2021-01-20T07:09:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.harman.scripts.View_Cart.View_CartSmartShoppers() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="View_CartSmartShoppers()[pri:0, instance:com.harman.scripts.View_Cart@3ffc5af1]" name="View_CartSmartShoppers" duration-ms="54842" started-at="2021-01-20T07:09:47Z" finished-at="2021-01-20T07:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- View_CartSmartShoppers -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.harman.scripts.View_Cart@3ffc5af1]" name="afterClass" is-config="true" duration-ms="3772" started-at="2021-01-20T07:10:42Z" finished-at="2021-01-20T07:10:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.harman.scripts.View_Cart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

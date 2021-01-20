@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.harman.scripts.View_Cart">
+        <methods>
+          <include name="afterClass"/>
+          <include name="methodName"/>
+          <include name="beforeClass"/>
+          <include name="View_CartSmartShoppers"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- com.harman.scripts.View_Cart -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
