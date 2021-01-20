@@ -14,6 +14,7 @@ public class View_Cart extends StartBrowser{
 WebDriver driver;
 	  @Test
 	  public void View_CartSmartShoppers() throws Exception{
+		  //This is to check github functionality
 		  CommonFunctions cfs = new CommonFunctions();
 		  driver = StartBrowser.driver;
 		  cfs.login(); //Login to the "Smartshoppers.in" page
