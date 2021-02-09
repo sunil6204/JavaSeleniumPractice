@@ -41,7 +41,15 @@ WebDriver driver;
 	driver.findElement(By.xpath("//a[@class='btn btn-xs btn-primary btn-outline']")).click();
 	//driver.findElement(By.linkText("View Cart")).click();
 	//Verify the Product name is same as selected ---------------------------
-	
+	String actualPName = driver.findElement(By.xpath("xxxxxxxxxxxxxxxx']")).getText();
+	if(ProductName.equals(actualPName))
+	{
+		StartBrowser.childTest.pass("Product name is same");
+	}
+	else
+	{
+		StartBrowser.childTest.fail("Product name is same");
+	}
 	//Cancel the selected product from the Shopping cart list
 	driver.findElement(By.xpath("//button[@class='btn btn-danger']")).click();
 	//Go back to the Previous page ------ This step is failing most of the time
